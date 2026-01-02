@@ -136,7 +136,7 @@ table {
   color: #51C6FB;
 }
 
-.buttonToggled {
+.button.selected {
   background-color: #F3FBFF;
   border: 3px solid #51C6FB;
   color: #51C6FB;
