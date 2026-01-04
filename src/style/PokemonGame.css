@@ -19,8 +19,9 @@
 }
 
 .gameScreen{
-  display: grid;
-  place-items: start center;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -47,7 +48,6 @@ h2 {
     height: 70%;
     width: 50%;
 }
-
 
 #pokemon-game-title {
   display: grid;
@@ -89,7 +89,6 @@ h2 {
     padding-right: 1.45%;
     padding-bottom: 1.5%;
 }
-
 
 .spriteImage {
     height: 96px;
@@ -153,7 +152,8 @@ table {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 1%;
+    padding-right: 50px;
+    padding-left: 6px;
     width: 50%;
     border-radius: 60px;
 }
@@ -179,4 +179,41 @@ thead  {
 
 td {
   padding: 10px;
+}
+
+/* Styles for screens narrower than 768px (mobile devices) */
+
+@media screen and (max-width: 767px) {
+
+  .player-container {
+    width: 75%;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .pokemon-card {
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 20px;
+ }
+
+  .spriteImage {
+    height: 48px;
+    width: 48px;
+    margin: 2px;
+  }
+
+  .scorecard {
+    display: none;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+    margin: 10px
+  }
+
 }
