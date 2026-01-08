@@ -4,7 +4,11 @@ This project implements PokéAPI (https://pokeapi.co/) and the wavesurfer.js lib
 
 ## Play on GitHub Pages:
 
-You can play the game here: https://skittykat5.github.io/pokemon-game/
+You can play the game here: [Pokémon Guessing Game](https://skittykat5.github.io/pokemon-game/)
+
+## See Figma Design:
+
+Concept and Figma mockup can be found here: [Figma Prototype](https://www.figma.com/design/8kV77BzRKg8UjpE4rbCPLW/Pokemon-Guessing-Game?node-id=11-2&m=dev&t=6MfEoJPq512objTr-1)
 
 ## Running Locally:
 
