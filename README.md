@@ -1,6 +1,6 @@
 # Pokémon Cry Guesser App
 
-This project implements [PokéAPI](https://pokeapi.co/) and the wavesurfer.js library to run a simple guessing game. Listen to the audio cry and guess which Pokémon makes the sound!
+This project implements [PokéAPI](https://pokeapi.co/) and the [wavesurfer.js](https://www.npmjs.com/package/@wavesurfer/react) library to run a simple guessing game. Listen to the audio cry and guess which Pokémon makes the sound!
 
 ## Play on GitHub Pages:
 
