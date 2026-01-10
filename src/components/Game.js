@@ -22,14 +22,19 @@ function Game() {
     const [losses, setLosses] = useState(0);
     
     async function generateRandomPokemon() {
+        const idArray = [];
         const pokeArray = [];
         const winnerArray = [false, false, false];
         var winningNumber = Math.floor(Math.random() * 3);
         setWinningChoice(winningNumber);
         winnerArray[winningNumber] = true;
         setWinner(winnerArray);
+        var id = -1;
         for (let i = 0; i < 3; i++) {
-            var id = Math.floor(Math.random() * 1025) + 1;
+            do {
+                id = Math.floor(Math.random() * 1025) + 1;
+            } while (idArray.indexOf(id) >= 0);
+            idArray.push(id);
             var response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`).catch((error) => console.log(error));
             pokeArray.push(response.data);
         }
