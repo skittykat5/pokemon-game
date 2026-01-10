@@ -2,6 +2,8 @@
 
 This project implements [PokéAPI](https://pokeapi.co/) and the [wavesurfer.js](https://www.npmjs.com/package/@wavesurfer/react) library to run a simple guessing game. Listen to the audio cry and guess which Pokémon makes the sound!
 
+This project is intended to showcase my front-end development skills in React, and is not in any way monetized. Pokémon and Pokémon character names are trademarks of Nintendo.
+
 ## Play on GitHub Pages:
 
 You can play the game here: [Pokémon Guessing Game](https://skittykat5.github.io/pokemon-game/)
@@ -22,3 +24,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
+
